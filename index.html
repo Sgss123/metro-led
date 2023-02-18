@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LED模拟</title>
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="//www.chk.asia/static/plugins/bootstrap-5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//www.chk.asia/static/plugins/fontawesome-free-6.2.1-web/css/all.min.css">
+    <link rel="stylesheet" href="//www.chk.asia/static/plugins/font_3878771_1u1xusjlsd7/iconfont.css">
+    <link rel="stylesheet" href="//www.chk.asia/static/css/custom.css">
+
+</head>
+
+<body>
+    <!-- 导航栏 -->
+    <div class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand d-inline-block align-text-top" href="/">&#128213;&nbsp;Sgss小破站</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page"
+                            href="https://www.waterspo.top?form=newsite">返回旧网站</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="//www.chk.asia">返回主页</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about">自我介绍</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="javascript:;" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            友情链接
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="javascript:;"
+                                    onclick="window.location.replace('https://sec.xiaolizi.fun')">极语言</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="/friend">申请友链</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="javascript:;" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Windows快速工具
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="ms-settings://"><i class="iconfont icon-set"></i>设置</a>
+                            </li>
+                            <li><a class="dropdown-item" href="ms-windows-store://">微软商店</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="minecraft://">Minecraft(Windows 10)</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="在网页中搜索" aria-label="在网页中搜索">
+                    <button class="btn btn-outline-success" type="submit"><i
+                            class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="head">
+        <h1>欢迎使用LED模拟工具</h1>
+        <div class="input-group mb-3">
+            <span class="input-group-text">要滚动的文字：</span>
+            <input type="text" class="form-control" placeholder="Text" id="inputtext">
+        </div>
+
+        <div class="input-group mb-3">
+            <span class="input-group-text">要显示的颜色(支持单词,十六进制)：</span>
+            <input type="text" class="form-control" placeholder="Color" id="inputcolor">
+        </div>
+
+        <button type="button" class="btn btn-success" onclick="myFunction()">生成</button>
+    </div>
+    <hr>
+    <div class="Lyusung">
+        <div class="display display-default">
+            <marquee id="marquee1">欢迎！Welcome</marquee>
+        </div>
+        <br>
+        <div class="display display-big">
+            <marquee id="marquee2">欢迎！Welcome</marquee>
+        </div>
+        <br>
+        <div class="display display-superbig">
+            <marquee id="marquee3">欢迎！Welcome</marquee>
+        </div>
+        <hr>
+    </div>
+    <div class="Unifont">
+        <div class="display display-default">
+            <marquee id="marquee4">欢迎！Welcome</marquee>
+        </div>
+        <br>
+        <div class="display display-big">
+            <marquee id="marquee5">欢迎！Welcome</marquee>
+        </div>
+        <br>
+        <div class="display display-superbig">
+            <marquee id="marquee6">欢迎！Welcome</marquee>
+        </div>
+        <hr>
+    </div>
+    <div class="Pixel">
+        <div class="display display-default">
+            <marquee id="marquee7">欢迎！Welcome</marquee>
+        </div>
+        <br>
+        <div class="display display-big">
+            <marquee id="marquee8">欢迎！Welcome</marquee>
+        </div>
+        <br>
+        <div class="display display-superbig">
+            <marquee id="marquee9">欢迎！Welcome</marquee>
+        </div>
+        <hr>
+    </div>
+    <div class="footer" style="height: 110px;">
+        <!-- 用div是兼容IE最后的倔强 -->
+        <div class="wapper">
+            <div class="bottom">
+                <p>
+                    <a href="/about" class="footerlink">关于我</a>&nbsp;|
+                    <a href="/friend" class="footerlink">申请友链</a>&nbsp;|
+                    <a href="//wpa.qq.com/msgrd?v=3&uin=2269718601&site=qq&menu=yes" target="_blank"
+                        class="footerlink">QQ联系我</a>&nbsp;|
+                    <a href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=KFtPW1tMQVtoXkFYBllZBktHRQ"
+                        target="_blank" class="footerlink">给我发邮件</a>&nbsp;|
+                    <a href="//message.bilibili.com/#/whisper/mid531522938" target="_blank"
+                        class="footerlink">B站私信我</a>&nbsp;|
+                    <a href="//space.bilibili.com/531522938" target="_blank" class="footerlink">站长B站</a>
+                </p>
+                <p style="color: bisque;">Copyright &COPY; 2022-<span id="date"></span> Sgss All Rights Reserved.
+                </p>
+                <script>
+                    var d = new Date();
+                    var x = document.getElementById("date");
+                    x.innerHTML = d.getFullYear();
+                </script>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function myFunction() {
+            var text = document.getElementById("inputtext").value;
+            var color = document.getElementById("inputcolor").value;
+            if (color==""){
+                color = "red";
+            }
+            document.getElementById("marquee1").innerHTML = text;
+            document.getElementById("marquee1").style.color = color;
+            document.getElementById("marquee2").innerHTML = text;
+            document.getElementById("marquee2").style.color = color;
+            document.getElementById("marquee3").innerHTML = text;
+            document.getElementById("marquee3").style.color = color;
+            document.getElementById("marquee4").innerHTML = text;
+            document.getElementById("marquee4").style.color = color;
+            document.getElementById("marquee5").innerHTML = text;
+            document.getElementById("marquee5").style.color = color;
+            document.getElementById("marquee6").innerHTML = text;
+            document.getElementById("marquee6").style.color = color;
+            document.getElementById("marquee7").innerHTML = text;
+            document.getElementById("marquee7").style.color = color;
+            document.getElementById("marquee8").innerHTML = text;
+            document.getElementById("marquee8").style.color = color;
+            document.getElementById("marquee9").innerHTML = text;
+            document.getElementById("marquee9").style.color = color;
+        }
+    </script>
+    <!-- <script src="assets/js/index.js"></script> -->
+    <script src="//unpkg.com/@popperjs/core@2"></script>
+    <script src="//www.chk.asia/static/js/jquery-3.6.3.min.js"></script>
+    <script src="//www.chk.asia/static/plugins/bootstrap-5.3.0/js/bootstrap.min.js"></script>
+    <script src="//www.chk.asia/static/plugins/font_3878771_1u1xusjlsd7/iconfont.js"></script>
+</body>
+
+</html>

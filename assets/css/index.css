@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: "Pixel";
+    src: url("../font/ipix_12px.ttf");
+}
+
+@font-face {
+    font-family: "Unifont";
+    src: url("../font/unifont-15.0.01.ttf"),
+        url("../font/unifont-15.0.01.otf");
+}
+
+@font-face {
+    font-family: "Lyusung";
+    src: url("../font/Lyusung.ttf");
+}
+
+.clearfix:after,
+.clearfix:before {
+    content: "";
+    display: table
+}
+
+.clearfix:after {
+    clear: both
+}
+
+.Lyusung {
+    font-family: 'Lyusung';
+}
+
+.Pixel {
+    font-family: 'Pixel';
+}
+
+.Unifont {
+    font-family: 'Unifont';
+}
+
+.display {
+    width: 600px;
+    height: 40px;
+    background-color: black;
+    margin-left: calc(50% - 300px);
+    color: red;
+    font-size: 38px;
+    line-height: normal;
+}
+
+.display-default {
+    width: 600px;
+    height: 40px;
+    background-color: black;
+    margin-left: calc(50% - 300px);
+    color: red;
+}
+
+.display-big {
+    width: 800px;
+    height: 60px;
+    background-color: black;
+    margin-left: calc(50% - 400px);
+    color: red;
+    font-size: 56px;
+}
+
+.display-superbig {
+    width: 1000px;
+    height: 80px;
+    background-color: black;
+    margin-left: calc(50% - 500px);
+    color: red;
+    font-size: 74px;
+}
+
+.head {
+    width: 400px;
+    margin: auto;
+    border-radius: 4px;
+    text-align: center;
+}
